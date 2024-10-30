@@ -10,7 +10,6 @@
     <ul v-for="num in numeros" :key="num">
       <HijoNumero :dibujonumero="num" v-on:sumarNumeros="sumarNumeros" />
     </ul>
-    <hr />
   </div>
 </template>
 

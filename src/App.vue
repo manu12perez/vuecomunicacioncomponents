@@ -1,19 +1,24 @@
 <template>
-  <!-- <PadreDeportes /> -->
-  <PadreNumeros />
+  <!-- <img alt="Vue logo" src="./assets/logo.png">
+  <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  <h1>Título Estatático</h1>
+  <MenuComponent />
+  <hr />
+  <router-view />
+  <hr />
 </template>
 
 <script>
-// import PadreDeportes from './components/PadreDeportes.vue';
-import PadreNumeros from './components/PadreNumeros.vue';
+// import HelloWorld from './components/HelloWorld.vue'
+import MenuComponent from './components/MenuComponent.vue'
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
-    // PadreDeportes,
-    PadreNumeros
-  },
-};
+    // HelloWorld
+    MenuComponent
+  }
+}
 </script>
 
 <style>
