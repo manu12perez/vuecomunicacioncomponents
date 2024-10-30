@@ -24,7 +24,7 @@ export default {
   },
   methods: {
     generarNum() {
-      let numeroAleatorio = Math.floor(Math.random() * 100) + 1;
+      let numeroAleatorio = parseInt(Math.floor(Math.random() * 100) + 1);
       this.numeros.push(numeroAleatorio);
     },
     
