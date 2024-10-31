@@ -6,6 +6,7 @@ import ComicsComponent from './components/ComicsComponent.vue'
 import SeleccionMultiple from './components/SeleccionMultiple.vue'
 import SumaCheckbox from './components/SumaCheckbox.vue'
 import NumeroDoble from './components/NumeroDoble.vue'
+import TablaMultiplicar from './components/TablaMultiplicar.vue'
 
 //CREAMOS UNA CONSTANTE ARRAY PARA LA RUTA
 const myRoutes = [
@@ -16,6 +17,7 @@ const myRoutes = [
     { path: "/seleccionmultiple", component: SeleccionMultiple },
     { path: "/sumacheckbox", component: SumaCheckbox },
     { path: "/numerodoble/:numero?", component: NumeroDoble },
+    { path: "/tablamultiplicar/:numero?", component: TablaMultiplicar },
 ]
 
 //CREAMOS UNA CONSTANTE PARA EL HISTORIAL E INCLUIR EN EL ARRAY DE RUTAS

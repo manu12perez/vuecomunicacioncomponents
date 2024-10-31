@@ -3,20 +3,25 @@
   <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <h1>Título Estatático</h1>
   <MenuComponent />
+  <br/>
+  <hr />
+  <MenuTablaMultiplicar />
   <hr />
   <router-view />
   <hr />
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
+// // import HelloWorld from './components/HelloWorld.vue'
 import MenuComponent from './components/MenuComponent.vue'
+import MenuTablaMultiplicar from './components/MenuTablaMultiplicar.vue'
 
 export default {
   name: 'App',
   components: {
     // HelloWorld
-    MenuComponent
+    MenuComponent,
+    MenuTablaMultiplicar
   }
 }
 </script>
